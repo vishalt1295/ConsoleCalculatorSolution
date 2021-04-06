@@ -16,12 +16,12 @@ namespace ConsoleAppProject
 
             CalculatedValue cc = new CalculatedValue();
 
-            cc.CalculationCompleted += cc_CalculationCompleted;
-            cc.StartProcess();
+            //cc.CalculationCompleted += cc_CalculationCompleted;
+            //cc.StartProcess();
         }
 
-        public static void cc_CalculationCompleted(object sender, EventArgs e) {
+        /* public static void cc_CalculationCompleted(object sender, EventArgs e) {
             Console.WriteLine("Your result is: ");
-        }
+        } */
     }
 }

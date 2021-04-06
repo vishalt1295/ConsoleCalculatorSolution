@@ -2,6 +2,7 @@
 using CalculatorProject.Models;
 using System;
 using System.Collections.Generic;
+using CalculatorProject;
 
 namespace CalculatorProject
 {
@@ -9,7 +10,6 @@ namespace CalculatorProject
     {
 
         public List<Calculation> Calculation = new List<Calculation>();
-
 
         //Calculator Constructor - A constructor is automaticly called when a class is instantiated
 
